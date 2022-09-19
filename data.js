@@ -1,0 +1,56 @@
+export const electronics = [
+    {
+        "id": "1",
+        "title": "Echo Dot",
+        "image": require('./images/electronics/alexa.jpg'),
+        "price": "5000.00",
+        "short_description": "4th Gen, 2020 release | Next generation smart speaker with powerful bass, LED display and Alexa",
+    },
+    {
+        "id": "2",
+        "title": "MacBook Pro",
+        "image": require('./images/electronics/macbook.jpg'),
+        "price": "98900",
+        "short_description": "Apple MacBook Pro (16-inch/41.05 cm, Apple M1 Max chip with 10‑core CPU and 32‑core GPU, 32GB RAM, 1TB SSD) - Silver",
+    },
+    {
+        "id": "3",
+        "title": "PS5",
+        "image": require('./images/electronics/PS5.jpg'),
+        "price": "65990",
+        "short_description": "Sony Playstation 5 Complete Set",
+    },
+    {
+        "id": "5",
+        "title": "JBL Pulse",
+        "image": require('./images/electronics/pulse.jpg'),
+        "price": "14999",
+        "short_description": "Wireless Portable Bluetooth Speaker with Customizable Ambient Lightshow, JBL Signature Sound with Bass Radiator, JBL PartyBoost, IPX7 Waterproof & Type C (Without Mic, Black)",
+    },
+    {
+        "id": "6",
+        "title": "iWatch",
+        "image": require('./images/electronics/iWatch.jpg'),
+        "price": "68000",
+        "short_description": "Series 7 (GPS + Cellular, 41mm) - Gold Stainless Steel Case with Gold Milanese Loop",
+    },
+    {
+        "id": "7",
+        "title": "FireStick",
+        "image": require('./images/electronics/firestick.jpg'),
+        "price": "4599",
+        "short_description": "4K Max streaming device, Alexa Voice Remote (includes TV controls)",
+    },{
+        "id": "8",
+        "title": "iMac",
+        "image": require('./images/electronics/iMac.jpg'),
+        "price": "92990",
+        "short_description": "Core i5 (7th Gen) (8 GB Unified/256 GB SSD/Mac OS Big Sur/21.5 Inch Screen",
+    },{
+        "id": "9",
+        "title": "iPad Air",
+        "image": require('./images/electronics/ipad.jpg'),
+        "price": "55000",
+        "short_description": "4th Gen | 64 GB ROM 10.9 inch with Wi-Fi Only (Sky Blue)",
+    },
+]
