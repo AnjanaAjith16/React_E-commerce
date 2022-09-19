@@ -34,8 +34,9 @@ export const addItem = (product, quantity, totalPrice) => {
     }
     else {
         cartItems.map((i) => {
-            if (i.id === id) {
+            if (i.id === id && i.title === title) {
                 ++i.quantity;
+                i.totalPrice = i.unitPrice * i.quantity;
             }
         })
     }
