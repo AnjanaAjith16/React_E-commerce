@@ -12,10 +12,6 @@ function Home() {
     const snap = useSnapshot(theme);
     const navigate = useNavigate();
 
-    async function goToPage(category) {
-        navigate(category.link, { state: { title: category.title } });
-    }
-
     const categories = [
         {
             title: "Fashion",
@@ -41,7 +37,7 @@ function Home() {
                 {categories.map(category => (
                     <div className={"col"} key={category.title}>
                         <div className={"card h-100 bg-" + snap.mode}>
-                            <img src={category.image} className="card-img-top" alt="categoryImage" height={260} onClick={() => { goToPage(category) }} />
+                            <img src={category.image} className="card-img-top" alt="categoryImage" height={260} onClick={() => { navigate(category.link, { state: { title: category.title } }) }} />
                             <div className="card-body">
                                 <h5 className="card-title">{category.title}</h5>
                             </div>
